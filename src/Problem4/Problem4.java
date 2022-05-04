@@ -6,7 +6,7 @@ public class Problem4 {
     public static void main(String[] args) {
         //Write a program that solves a quadric equation
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a: ");
+        System.out.println("Enter a:");
         double a = input.nextDouble();
 
         System.out.println("Enter b: ");
