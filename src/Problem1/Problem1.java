@@ -15,11 +15,11 @@ public class Problem1 {
         System.out.println("Smallest number from the array is: "+min);
         }
         //Pseodocode
-        //citeste lista;
-        //min = lista[0]
-        //pentru numar in lista
-        //daca numar < min atunci
-        //min = numar
-        //afiseaza min;
+        //Read list;
+        //min = list[0]
+        //for the number in the list
+        //if number <min then
+        //min = number
+        //show min;
     }
 
