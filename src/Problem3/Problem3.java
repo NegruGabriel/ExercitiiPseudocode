@@ -15,20 +15,16 @@ public class Problem3 {
         int count = 0;
         while (count != c) {
             yourYear = yourYear + 1;
-            if ((yourYear % 400 == 0)) {
+            if ((yourYear % 400 == 0 || yourYear % 4 == 0)) {
                 System.out.println(yourYear);
                 count++;
-                else if ((yourYear % 100 == 0)) {
-                    System.out.println("no year");
+            } else if ((yourYear % 100 == 0)) {
+                System.out.println("no year");
 
-                }
-                if ((yourYear % 4 == 0)) {
-                    System.out.println(yourYear);
-                    count++;
-                    yourYear++;
-
-                }
             }
+        }
+    }
+}
             //Pseodocode
             //citeste an;
             //counter = 0;
@@ -42,6 +38,5 @@ public class Problem3 {
             //afiseaza an
             //counter++
             //an++
-        }
-    }
-}
+
+
