@@ -6,14 +6,18 @@ public class Problem3 {
     public static void main(String[] args) {
 
         //Write a program that prints the next 20 leap years.
-        int year = 2022;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Read year: ");
+        int yourYear = sc.nextInt();
+        System.out.println("The  year is: " + yourYear);
+
         int c = 20;
         int count = 0;
         while (count !=c){
-            year = year +1;
-            if((year%400 == 0)|| (year% 100 !=0)){
+            yourYear = yourYear +1;
+            if((yourYear%400 == 0)|| (yourYear% 100 !=0)){
                 count++;
-                System.out.println(year);
+                System.out.println(yourYear);
             }
         }
         //Pseodocode
